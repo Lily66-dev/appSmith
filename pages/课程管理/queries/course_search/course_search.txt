@@ -1,0 +1,12 @@
+      SELECT c.* FROM course c
+			left join 
+			course_category_relation r
+			on c.id = r.course_id
+      WHERE 
+		  (CASE WHEN {{!!form_input_filename.text}} THEN c.name LIKE "%" {{form_input_filename.text}} "%" ELSE 1=1 END)
+      AND (CASE WHEN {{!!form_select_file.selectedOptionValue}} THEN status = {{form_select_file.selectedOptionValue}} ELSE 1=1 END)
+			AND (CASE WHEN {{!!form_select_category.selectedOptionValue}} THEN r.category_id = {{form_select_category.selectedOptionValue}} ELSE 1=1 END)
+      AND c.yn = 1
+      ORDER BY modify_time DESC
+      LIMIT {{container_right_table.pageSize}}
+      OFFSET {{container_right_table.pageOffset}}

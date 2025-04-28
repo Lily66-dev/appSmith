@@ -1,0 +1,1 @@
+SELECT * from course where yn = 1 and status = 2  order by modify_time desc;

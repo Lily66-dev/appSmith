@@ -1,0 +1,14 @@
+UPDATE courseware
+SET
+    name = '{{this.params.name}}',
+    public = {{this.params.public}},
+    category_id = {{this.params.category_id}},
+    file_path = '{{this.params.file_path}}',
+    file_type = '{{this.params.file_type}}',
+    file_size = '{{this.params.file_size}}',
+    create_account = '{{this.params.create_account}}',
+    create_time = '{{this.params.create_time}}',
+    modify_account = '{{this.params.modify_account}}',
+    modify_time = '{{new Date().toISOString()}}',
+    yn = 1
+WHERE id = '{{this.params.id}}'; -- 根据实际条件调整（例如：主键或其他唯一标识）

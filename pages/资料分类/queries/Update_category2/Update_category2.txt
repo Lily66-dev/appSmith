@@ -1,0 +1,1 @@
+UPDATE category SET name= '{{frm_Class.data.form_input_category}}', sort= '{{frm_Class.data.form_input_sort}}', create_account= '{{Table2.triggeredRow.create_account}}', modify_account= '{{this.params.modify_account}}', create_time= '{{Table2.triggeredRow.create_time}}', modify_time= '{{new Date().toISOString()}}', yn= '{{1}}' WHERE id= '{{this.params.id}}';

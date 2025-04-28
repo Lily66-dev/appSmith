@@ -1,0 +1,725 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "allowAddNewRow": false,
+  "animateLoading": true,
+  "borderColor": "#E0DEDE",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "borderWidth": "1",
+  "bottomRow": 76,
+  "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+  "cachedTableData": {},
+  "canFreezeColumn": false,
+  "childStylesheet": {
+    "button": {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
+    },
+    "editActions": {
+      "discardBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "discardButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+      "saveBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "saveButtonColor": "{{appsmith.theme.colors.primaryColor}}"
+    },
+    "iconButton": {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
+    },
+    "menuButton": {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "menuColor": "{{appsmith.theme.colors.primaryColor}}"
+    }
+  },
+  "columnOrder": [
+    "name",
+    "id",
+    "create_account",
+    "modify_account",
+    "description",
+    "modify_time",
+    "create_time",
+    "yn",
+    "EditActions1",
+    "cover_img_path",
+    "credit",
+    "status"
+  ],
+  "columnUpdatedAt": 1745749973356,
+  "columnWidthMap": {
+    "create_account": 77,
+    "create_time": 157,
+    "description": 218,
+    "file_size": 238,
+    "id": 222,
+    "modify_account": 143,
+    "modify_time": 146,
+    "name": 60,
+    "sort": 121
+  },
+  "compactMode": "DEFAULT",
+  "customIsLoading": false,
+  "customIsLoadingValue": "",
+  "defaultPageSize": 0,
+  "defaultSelectedRowIndex": 0,
+  "defaultSelectedRowIndices": "[\n  \n]",
+  "delimiter": ",",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "boxShadow"
+    },
+    {
+      "key": "primaryColumns.id.computedValue"
+    },
+    {
+      "key": "primaryColumns.name.computedValue"
+    },
+    {
+      "key": "primaryColumns.create_account.computedValue"
+    },
+    {
+      "key": "primaryColumns.modify_account.computedValue"
+    },
+    {
+      "key": "primaryColumns.create_time.computedValue"
+    },
+    {
+      "key": "primaryColumns.modify_time.computedValue"
+    },
+    {
+      "key": "primaryColumns.yn.computedValue"
+    },
+    {
+      "key": "primaryColumns.EditActions1.saveBorderRadius"
+    },
+    {
+      "key": "primaryColumns.EditActions1.discardBorderRadius"
+    },
+    {
+      "key": "primaryColumns.yn.menuColor"
+    },
+    {
+      "key": "primaryColumns.yn.borderRadius"
+    },
+    {
+      "key": "primaryColumns.yn.boxShadow"
+    },
+    {
+      "key": "totalRecordsCount"
+    },
+    {
+      "key": "primaryColumns.yn.sourceData"
+    },
+    {
+      "key": "tableData"
+    },
+    {
+      "key": "primaryColumns.description.computedValue"
+    },
+    {
+      "key": "primaryColumns.cover_img_path.computedValue"
+    },
+    {
+      "key": "primaryColumns.credit.computedValue"
+    },
+    {
+      "key": "primaryColumns.status.computedValue"
+    },
+    {
+      "key": "primaryColumns.create_account.textColor"
+    },
+    {
+      "key": "primaryColumns.yn.menuItems.menuItem0g0ayewx3s.isVisible"
+    },
+    {
+      "key": "primaryColumns.yn.menuItems.menuItemcqdssw75np.isVisible"
+    },
+    {
+      "key": "primaryColumns.yn.menuItems.menuItemnz9bc2asyo.isVisible"
+    },
+    {
+      "key": "primaryColumns.yn.menuItems.menuItemwvoaqpfark.isVisible"
+    },
+    {
+      "key": "primaryColumns.yn.menuItems.menuItemj9zysulbv8.isVisible"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "primaryColumns.EditActions1.isSaveDisabled"
+    },
+    {
+      "key": "primaryColumns.EditActions1.isDiscardDisabled"
+    },
+    {
+      "key": "tableData"
+    },
+    {
+      "key": "primaryColumns.create_account.textColor"
+    },
+    {
+      "key": "primaryColumns.yn.menuItems.menuItem0g0ayewx3s.isVisible"
+    },
+    {
+      "key": "primaryColumns.yn.menuItems.menuItemcqdssw75np.isVisible"
+    },
+    {
+      "key": "primaryColumns.yn.menuItems.menuItemnz9bc2asyo.isVisible"
+    },
+    {
+      "key": "primaryColumns.yn.menuItems.menuItemwvoaqpfark.isVisible"
+    },
+    {
+      "key": "primaryColumns.yn.isCellVisible"
+    },
+    {
+      "key": "primaryColumns.yn.menuItems.menuItemj9zysulbv8.isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onPageChange"
+    },
+    {
+      "key": "onSort"
+    },
+    {
+      "key": "onAddNewRowSave"
+    },
+    {
+      "key": "primaryColumns.yn.menuItems.menuItemwvoaqpfark.onClick"
+    },
+    {
+      "key": "primaryColumns.yn.menuItems.menuItemj9zysulbv8.onClick"
+    },
+    {
+      "key": "primaryColumns.yn.menuItems.menuItemcqdssw75np.onClick"
+    },
+    {
+      "key": "primaryColumns.yn.menuItems.menuItemnz9bc2asyo.onClick"
+    },
+    {
+      "key": "primaryColumns.yn.menuItems.menuItem0g0ayewx3s.onClick"
+    }
+  ],
+  "enableClientSideSearch": true,
+  "endOfData": false,
+  "flexVerticalAlignment": "start",
+  "horizontalAlignment": "LEFT",
+  "inlineEditingSaveOption": "ROW_LEVEL",
+  "isLoading": false,
+  "isSortable": false,
+  "isVisible": true,
+  "isVisibleDownload": false,
+  "isVisibleFilters": false,
+  "isVisiblePagination": true,
+  "isVisibleSearch": false,
+  "key": "t7h7sk5dys",
+  "label": "Data",
+  "leftColumn": 0,
+  "minWidth": 450,
+  "mobileBottomRow": 59,
+  "mobileLeftColumn": 12,
+  "mobileRightColumn": 30,
+  "mobileTopRow": 31,
+  "multiRowSelection": false,
+  "needsErrorInfo": false,
+  "onAddNewRowSave": "{{Insert_courseware1.run(() => {\n            showAlert(\"Successfully created!\");\n            Select_courseware1.run()\n          }, () => {\n            showAlert(\"Unable to create!\");\n          })}}",
+  "onPageChange": "{{search.run()\nTotal_record_courseware1.run();}}",
+  "onSort": "{{\n            Select_courseware1.run();\n            Total_record_courseware1.run()\n          }}",
+  "originalBottomRow": 76,
+  "originalTopRow": 6,
+  "parentColumnSpace": 19.5,
+  "parentId": "vp9g1s3rbx",
+  "parentRowSpace": 10,
+  "primaryColumnId": "name",
+  "primaryColumns": {
+    "EditActions1": {
+      "alias": "EditActions1",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "buttonStyle": "rgb(3, 179, 101)",
+      "columnType": "editActions",
+      "computedValue": "",
+      "currencyCode": "USD",
+      "decimals": 0,
+      "discardActionLabel": "下载",
+      "discardBorderRadius": "{{container_right_table.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.borderRadius.appBorderRadius)))}}",
+      "discardButtonColor": "#2160CD",
+      "discardButtonVariant": "TERTIARY",
+      "discardIconAlign": "left",
+      "enableFilter": true,
+      "enableSort": true,
+      "id": "EditActions1",
+      "index": 10,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": true,
+      "isDisabled": false,
+      "isDiscardDisabled": "false",
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveDisabled": "false",
+      "isSaveVisible": true,
+      "isVisible": false,
+      "label": "创建时间",
+      "notation": "standard",
+      "originalId": "EditActions1",
+      "saveActionLabel": "查看",
+      "saveBorderRadius": "{{container_right_table.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.borderRadius.appBorderRadius)))}}",
+      "saveButtonColor": "#2160CD",
+      "saveButtonVariant": "TERTIARY",
+      "saveIconAlign": "left",
+      "sticky": "",
+      "thousandSeparator": true,
+      "validation": {},
+      "width": 150
+    },
+    "cover_img_path": {
+      "alias": "cover_img_path",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "cellBackground": "",
+      "columnType": "text",
+      "computedValue": "{{container_right_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"cover_img_path\"]))}}",
+      "currencyCode": "USD",
+      "decimals": 0,
+      "enableFilter": true,
+      "enableSort": true,
+      "fontStyle": "",
+      "horizontalAlignment": "LEFT",
+      "id": "cover_img_path",
+      "index": 3,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": false,
+      "label": "cover_img_path",
+      "notation": "standard",
+      "originalId": "cover_img_path",
+      "sticky": "",
+      "textColor": "",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "create_account": {
+      "alias": "create_account",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "cellBackground": "",
+      "columnType": "text",
+      "computedValue": "{{(() => { const tableData = container_right_table.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => ( \nutils.getCourseStatus(currentRow.status))) :  \nutils.getCourseStatus(currentRow.status) })()}}",
+      "currencyCode": "USD",
+      "decimals": 0,
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "CENTER",
+      "id": "create_account",
+      "index": 6,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "课程状态",
+      "notation": "standard",
+      "originalId": "create_account",
+      "sticky": "",
+      "textColor": "{{(() => { const tableData = container_right_table.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (utils.getCourseStatusColor(currentRow.status))) : utils.getCourseStatusColor(currentRow.status) })()}}",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {
+        "isColumnEditableCellValid": "",
+        "regex": ""
+      },
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "create_time": {
+      "alias": "create_time",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "columnType": "text",
+      "computedValue": "{{(() => { const tableData = container_right_table.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => ( \ncurrentRow && \ncurrentRow.modify_time && currentRow.modify_time !== 'null' ? \nmoment(currentRow.modify_time).format(\"YYYY-MM-DD HH:mm:ss\"):\nmoment(currentRow.create_time).format(\"YYYY-MM-DD HH:mm:ss\"))) :  \ncurrentRow && \ncurrentRow.modify_time && currentRow.modify_time !== 'null' ? \nmoment(currentRow.modify_time).format(\"YYYY-MM-DD HH:mm:ss\"):\nmoment(currentRow.create_time).format(\"YYYY-MM-DD HH:mm:ss\") })()}}",
+      "currencyCode": "USD",
+      "decimals": 0,
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "create_time",
+      "index": 8,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "创建时间",
+      "notation": "standard",
+      "originalId": "create_time",
+      "sticky": "",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "credit": {
+      "alias": "credit",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "cellBackground": "",
+      "columnType": "text",
+      "computedValue": "{{container_right_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"credit\"]))}}",
+      "currencyCode": "USD",
+      "decimals": 0,
+      "enableFilter": true,
+      "enableSort": true,
+      "fontStyle": "",
+      "horizontalAlignment": "LEFT",
+      "id": "credit",
+      "index": 4,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": false,
+      "label": "credit",
+      "notation": "standard",
+      "originalId": "credit",
+      "sticky": "",
+      "textColor": "",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "description": {
+      "alias": "description",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "cellBackground": "",
+      "columnType": "text",
+      "computedValue": "{{container_right_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"description\"]))}}",
+      "currencyCode": "USD",
+      "decimals": 0,
+      "enableFilter": true,
+      "enableSort": true,
+      "fontStyle": "",
+      "horizontalAlignment": "LEFT",
+      "id": "description",
+      "index": 2,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "课程描述",
+      "notation": "standard",
+      "originalId": "description",
+      "sticky": "",
+      "textColor": "",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "id": {
+      "alias": "id",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "columnType": "number",
+      "computedValue": "{{(() => { const tableData = container_right_table.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => ( currentRow[\"name\"])) :  currentRow[\"name\"] })()}}",
+      "currencyCode": "USD",
+      "decimals": 0,
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "id",
+      "index": 0,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "课程名称",
+      "notation": "standard",
+      "originalId": "id",
+      "sticky": "",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "modify_account": {
+      "alias": "modify_account",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "columnType": "text",
+      "computedValue": "{{container_right_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"modify_account\"]))}}",
+      "currencyCode": "USD",
+      "decimals": 0,
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "modify_account",
+      "index": 7,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "所属分类",
+      "notation": "standard",
+      "originalId": "modify_account",
+      "sticky": "",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "modify_time": {
+      "alias": "modify_time",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "columnType": "text",
+      "computedValue": "{{(() => { const tableData = container_right_table.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (currentRow[\"modify_account\"] &&currentRow[\"modify_account\"] !== 'null' ?currentRow[\"modify_account\"]:currentRow[\"create_account\"])) : currentRow[\"modify_account\"] &&currentRow[\"modify_account\"] !== 'null' ?currentRow[\"modify_account\"]:currentRow[\"create_account\"] })()}}",
+      "currencyCode": "USD",
+      "decimals": 0,
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "modify_time",
+      "index": 9,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "创建人",
+      "notation": "standard",
+      "originalId": "modify_time",
+      "sticky": "",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "name": {
+      "alias": "name",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "columnType": "text",
+      "computedValue": "{{(() => { const tableData = container_right_table.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => ( currentRow[\"id\"])) :  currentRow[\"id\"] })()}}",
+      "currencyCode": "USD",
+      "decimals": 0,
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "CENTER",
+      "id": "name",
+      "index": 1,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "序号",
+      "notation": "standard",
+      "originalId": "name",
+      "sticky": "",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "status": {
+      "alias": "status",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "cellBackground": "",
+      "columnType": "text",
+      "computedValue": "{{container_right_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"status\"]))}}",
+      "currencyCode": "USD",
+      "decimals": 0,
+      "enableFilter": true,
+      "enableSort": true,
+      "fontStyle": "",
+      "horizontalAlignment": "LEFT",
+      "id": "status",
+      "index": 5,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": false,
+      "label": "status",
+      "notation": "standard",
+      "originalId": "status",
+      "sticky": "",
+      "textColor": "",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "yn": {
+      "alias": "yn",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "borderRadius": "{{container_right_table.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.borderRadius.appBorderRadius)))}}",
+      "boxShadow": "{{container_right_table.processedTableData.map((currentRow, currentIndex) => ( \"none\"))}}",
+      "columnType": "menuButton",
+      "computedValue": "{{container_right_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"yn\"]))}}",
+      "configureMenuItems": {
+        "config": {
+          "id": "config",
+          "isDisabled": false,
+          "isVisible": true,
+          "label": "下载"
+        },
+        "id": "config",
+        "label": "Configure menu items"
+      },
+      "currencyCode": "USD",
+      "customAlias": "",
+      "decimals": 0,
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "yn",
+      "index": 10,
+      "isCellEditable": true,
+      "isCellVisible": "true",
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": true,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "操作",
+      "menuButtonLabel": "操作",
+      "menuColor": "{{container_right_table.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.colors.primaryColor)))}}",
+      "menuItems": {
+        "menuItem0g0ayewx3s": {
+          "id": "menuItem0g0ayewx3s",
+          "index": 0,
+          "isDisabled": false,
+          "isVisible": "{{(() => { const tableData = container_right_table.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => ([1,3].includes(currentRow.status))) : [1,3].includes(currentRow.status) })()}}",
+          "label": "发布",
+          "onClick": "{{showModal(publish_class.name);}}",
+          "widgetId": "hcvleslul7"
+        },
+        "menuItemcqdssw75np": {
+          "id": "menuItemcqdssw75np",
+          "index": 1,
+          "isDisabled": false,
+          "isVisible": "{{(() => { const tableData = container_right_table.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => ([2].includes(currentRow.status))) : [2].includes(currentRow.status) })()}}",
+          "label": "撤销",
+          "onClick": "{{showModal(repeal_class.name);}}",
+          "widgetId": "zwia7tgx3b"
+        },
+        "menuItemj9zysulbv8": {
+          "id": "menuItemj9zysulbv8",
+          "index": 4,
+          "isDisabled": false,
+          "isVisible": "{{(() => { const tableData = container_right_table.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => ([1,3].includes(currentRow.status)\n)) : [1,3].includes(currentRow.status)\n })()}}",
+          "label": "删除",
+          "onClick": "{{showModal(delete_class.name);}}",
+          "textColor": "#F22B2B",
+          "widgetId": "ky65elymmk"
+        },
+        "menuItemnz9bc2asyo": {
+          "id": "menuItemnz9bc2asyo",
+          "index": 2,
+          "isDisabled": false,
+          "isVisible": "{{(() => { const tableData = container_right_table.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => ([2,3].includes(currentRow.status))) : [2,3].includes(currentRow.status) })()}}",
+          "label": "详情",
+          "onClick": "{{navigateTo('课程详情', container_right_table.tableData[container_right_table.triggeredRowIndex], 'SAME_WINDOW');}}",
+          "widgetId": "yzozt2z8ss"
+        },
+        "menuItemwvoaqpfark": {
+          "id": "menuItemwvoaqpfark",
+          "index": 3,
+          "isDisabled": false,
+          "isVisible": "{{(() => { const tableData = container_right_table.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => ([1,3].includes(currentRow.status)\n)) : [1,3].includes(currentRow.status)\n })()}}",
+          "label": "编辑",
+          "onClick": "{{navigateTo('创建课程', container_right_table.tableData[container_right_table.triggeredRowIndex], 'SAME_WINDOW');}}",
+          "widgetId": "0lxeg13o2f"
+        }
+      },
+      "menuItemsSource": "STATIC",
+      "menuVariant": "TERTIARY",
+      "notation": "standard",
+      "originalId": "yn",
+      "sourceData": "{{(() => { const tableData = container_right_table.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => ( [\"查看\"])) :  [\"查看\"] })()}}",
+      "sticky": "",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    }
+  },
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 63,
+  "searchKey": "",
+  "serverSidePaginationEnabled": true,
+  "showInlineEditingOptionDropdown": true,
+  "tableData": "{{course_search.data}}",
+  "textSize": "0.875rem",
+  "topRow": 6,
+  "totalRecordsCount": "{{course_total.data[0] && course_total.data[0].total}}",
+  "type": "TABLE_WIDGET_V2",
+  "version": 2,
+  "verticalAlignment": "CENTER",
+  "widgetId": "po3ek4wh36",
+  "widgetName": "container_right_table"
+}

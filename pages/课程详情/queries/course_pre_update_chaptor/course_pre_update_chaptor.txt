@@ -1,0 +1,1 @@
+SELECT * from course_chapter_relation where course_id ='{{this.params.id}}';

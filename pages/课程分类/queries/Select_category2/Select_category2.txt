@@ -1,0 +1,11 @@
+SELECT
+  *
+FROM
+  category
+WHERE  yn = 1
+ORDER BY
+modify_time desc
+LIMIT
+  {{Table2.pageSize}}
+OFFSET
+  {{Table2.pageOffset}}

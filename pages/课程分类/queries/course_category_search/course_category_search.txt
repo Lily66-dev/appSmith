@@ -1,0 +1,23 @@
+SELECT 
+    cc.*,
+    GROUP_CONCAT(ccr.course_id) AS course_ids
+FROM (
+    -- 子查询：先分页获取分类 ID
+    SELECT id 
+    FROM course_category 
+    WHERE yn = 1 
+    ORDER BY modify_time DESC 
+    LIMIT
+  {{Table2.pageSize}}
+OFFSET
+  {{Table2.pageOffset}}
+
+) AS temp
+-- 回表获取分类完整信息
+JOIN course_category cc ON temp.id = cc.id
+-- 关联课程数据
+LEFT JOIN course_category_relation ccr ON cc.id = ccr.category_id
+-- 按分类 ID 聚合课程
+GROUP BY cc.id
+-- 维持排序结果
+ORDER BY cc.modify_time DESC;

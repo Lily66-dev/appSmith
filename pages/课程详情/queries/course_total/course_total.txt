@@ -1,0 +1,5 @@
+SELECT count(*) as total FROM category 
+WHERE 
+name LIKE '{{"%" + (form_input_filename.text || "") + "%"}}'
+AND yn = 1
+ORDER BY modify_time DESC

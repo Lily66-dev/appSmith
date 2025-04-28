@@ -1,0 +1,12 @@
+SELECT
+  *
+FROM
+  courseware
+where yn =  1
+ORDER BY
+  {{container_right_table.sortOrder.column || 'id'}} {{container_right_table.sortOrder.order !== "desc" ? "" : "DESC"}}
+
+LIMIT
+  {{container_right_table.pageSize}}
+OFFSET
+  {{container_right_table.pageOffset}}

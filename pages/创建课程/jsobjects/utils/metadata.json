@@ -1,0 +1,24 @@
+{
+  "gitSyncId": "67f87541469e331d6342771c_5515fccf-2c6f-42d7-a9e7-46b1635e4683",
+  "id": "创建课程_utils",
+  "unpublishedCollection": {
+    "name": "utils",
+    "pageId": "创建课程",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "activeProduct",
+        "value": "{\n  ...appsmith.URL.queryParams\n}"
+      },
+      {
+        "name": "chapters",
+        "value": "[]"
+      },
+      {
+        "name": "courseWare",
+        "value": "[]"
+      }
+    ]
+  }
+}

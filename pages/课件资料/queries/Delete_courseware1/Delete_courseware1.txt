@@ -1,0 +1,9 @@
+UPDATE courseware
+SET 
+    yn = '0',  -- 将 yn 标记为删除
+    modify_account = '{{this.params.modify_account}}',  -- 更新操作人
+    modify_time = '{{new Date().toISOString()}}'         -- 更新时间
+WHERE 
+    id = '{{this.params.id}}'  -- 根据主键或其他唯一标识定位记录
+    -- 可选：添加额外条件确保数据状态（例如 yn=1 时才允许标记删除）
+    AND yn = '1'; 

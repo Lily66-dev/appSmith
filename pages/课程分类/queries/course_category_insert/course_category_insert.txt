@@ -1,0 +1,7 @@
+START TRANSACTION;
+INSERT INTO course_category (name, sort, create_account, modify_account, create_time, modify_time, yn)
+  VALUES ( '{{frm_Class.data.form_input_category}}', '{{frm_Class.data.form_input_sort}}', '{{this.params.create_account}}', '{{this.params.create_account}}', '{{new Date().toISOString()}}', '{{new Date().toISOString()}}', 1);
+SET @a_id = LAST_INSERT_ID();
+--新增课程和课程分类的关联关系
+CALL insert_course_category_relations(@a_id, '{{this.params.create_account}}', '{{this.params.course_ids.join(",")}}');
+COMMIT;

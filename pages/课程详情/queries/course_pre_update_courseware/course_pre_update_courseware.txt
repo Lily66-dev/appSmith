@@ -1,0 +1,1 @@
+SELECT * from chapter_courseware_relation where chapter_id in ('{{this.params.chapter_ids.join(",")}}');

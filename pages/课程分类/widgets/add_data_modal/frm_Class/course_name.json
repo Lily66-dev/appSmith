@@ -1,0 +1,70 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 23,
+  "boxShadow": "none",
+  "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( utils.activeProduct ? utils.activeProduct.course_ids.split(\",\").map(x => parseInt(x, 10)) : []))(course_name.options, course_name.serverSideFiltering) }}",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "sourceData"
+    },
+    {
+      "key": "defaultOptionValue"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onDropdownOpen"
+    }
+  ],
+  "isDisabled": false,
+  "isFilterable": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "48fklz1xof",
+  "labelAlignment": "left",
+  "labelPosition": "Left",
+  "labelText": "关联课程",
+  "labelTextSize": "0.875rem",
+  "labelWidth": "10",
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 24,
+  "mobileLeftColumn": 8,
+  "mobileRightColumn": 28,
+  "mobileTopRow": 17,
+  "needsErrorInfo": false,
+  "onDropdownOpen": "{{course_query.run()}}",
+  "optionLabel": "name",
+  "optionValue": "id",
+  "parentColumnSpace": 8.34375,
+  "parentId": "blovjyb2pb",
+  "parentRowSpace": 10,
+  "placeholderText": "请选择选择课程",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 64,
+  "serverSideFiltering": false,
+  "sourceData": "{{course_query.data}}",
+  "topRow": 16,
+  "type": "MULTI_SELECT_WIDGET_V2",
+  "version": 1,
+  "widgetId": "fgvq60ri41",
+  "widgetName": "course_name"
+}

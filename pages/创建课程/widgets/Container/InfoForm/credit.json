@@ -1,0 +1,71 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "autoFocus": false,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 80,
+  "boxShadow": "none",
+  "defaultText": "{{ utils.activeProduct && utils.activeProduct.credit ? \nutils.activeProduct.credit: ''\n}}",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "defaultText"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onFocus"
+    }
+  ],
+  "errorMessage": "只能输入1-100的正整数",
+  "iconAlign": "left",
+  "inputType": "NUMBER",
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "kh0olie9xt",
+  "label": "课程学分\n",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelStyle": "",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "maxNum": "100",
+  "minDynamicHeight": 4,
+  "minNum": "1",
+  "minWidth": 450,
+  "mobileBottomRow": 20,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 19,
+  "mobileTopRow": 13,
+  "needsErrorInfo": false,
+  "onFocus": "",
+  "originalBottomRow": 80,
+  "originalTopRow": 73,
+  "parentColumnSpace": 28.27347183227539,
+  "parentId": "rrunai6ijy",
+  "parentRowSpace": 10,
+  "placeholderText": "请输入课程学分",
+  "regex": "^\\+?[1-9]\\d*$",
+  "renderMode": "CANVAS",
+  "resetOnSubmit": true,
+  "responsiveBehavior": "fill",
+  "rightColumn": 13,
+  "shouldAllowAutofill": false,
+  "showStepArrows": false,
+  "topRow": 73,
+  "type": "INPUT_WIDGET_V2",
+  "version": 2,
+  "widgetId": "qn31v3fg4g",
+  "widgetName": "credit"
+}

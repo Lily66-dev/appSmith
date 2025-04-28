@@ -1,0 +1,3 @@
+SELECT * FROM course_category 
+WHERE 
+name = '{{frm_Class.data.form_input_category}}' and yn = 1;

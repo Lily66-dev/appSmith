@@ -1,0 +1,68 @@
+{
+  "allowedFileTypes": "[\n    \".doc\",\n    \".docx\",\n    \".xls\",\n    \".xlsx\",\n    \".ppt\",\n    \".pptx\",\n    \".pdf\",\n    \".png\",\n    \".jpg\",\n    \".jpeg\",\n    \".mp4\"\n]",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 22,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "displayName": "FilePicker",
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "allowedFileTypes"
+    },
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onFilesSelected"
+    }
+  ],
+  "dynamicTyping": true,
+  "fileDataType": "Binary",
+  "files": [],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.7c5ad9c357928c6ff5701bf51a56c2e5.svg",
+  "isDefaultClickDisabled": true,
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": true,
+  "isVisible": "{{!utils?.activeProduct?.name}}",
+  "key": "izbhaqfv3r",
+  "label": "上传资料",
+  "leftColumn": 12,
+  "maxFileSize": "200",
+  "maxNumFiles": "1",
+  "minWidth": 450,
+  "onFilesSelected": "{{utils.setFilePath();}}",
+  "originalBottomRow": 22,
+  "originalTopRow": 17,
+  "parentColumnSpace": 13.4921875,
+  "parentId": "qda3u6amtc",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 63,
+  "searchTags": [
+    "upload"
+  ],
+  "selectedFiles": [],
+  "topRow": 17,
+  "type": "FILE_PICKER_WIDGET_V2",
+  "version": 1,
+  "widgetId": "3z78wvugm0",
+  "widgetName": "edit_fpk_documentUpload"
+}

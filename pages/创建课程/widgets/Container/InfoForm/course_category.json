@@ -1,0 +1,73 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 60,
+  "boxShadow": "none",
+  "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( utils.activeProduct?.categoryIds ? utils.activeProduct?.categoryIds:[]))(course_category.options, course_category.serverSideFiltering) }}",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "sourceData"
+    },
+    {
+      "key": "defaultOptionValue"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onDropdownOpen"
+    }
+  ],
+  "isDisabled": false,
+  "isFilterable": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "u82gbf87x3",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "课程分类",
+  "labelTextSize": "0.875rem",
+  "labelTooltip": "若未选择分类将课程将自动归为未分类组",
+  "labelWidth": 5,
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 59,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 8,
+  "mobileTopRow": 52,
+  "needsErrorInfo": false,
+  "onDropdownOpen": "{{course_category_query.run()}}",
+  "optionLabel": "name",
+  "optionValue": "id",
+  "originalBottomRow": 60,
+  "originalTopRow": 53,
+  "parentColumnSpace": 29.357177734375,
+  "parentId": "rrunai6ijy",
+  "parentRowSpace": 10,
+  "placeholderText": "请选择课程分类",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 62,
+  "serverSideFiltering": false,
+  "sourceData": "{{course_category_query.data}}",
+  "topRow": 53,
+  "type": "MULTI_SELECT_WIDGET_V2",
+  "version": 1,
+  "widgetId": "gtij2jzgd2",
+  "widgetName": "course_category"
+}

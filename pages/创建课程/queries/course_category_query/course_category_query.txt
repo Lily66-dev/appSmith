@@ -1,0 +1,7 @@
+SELECT
+  *
+FROM
+  course_category
+where yn =  1
+ORDER BY
+modify_time desc

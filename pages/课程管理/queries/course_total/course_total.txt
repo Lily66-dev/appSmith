@@ -1,0 +1,12 @@
+select count(1) as total from (
+SELECT c.id,r.course_id  FROM 
+course c
+LEFT join 
+course_category_relation r 
+on c.id = r.course_id
+WHERE 
+      c.name LIKE '{{"%" + (form_input_filename.text || "") + "%"}}'
+      AND (CASE WHEN {{!!form_select_file.selectedOptionValue}} THEN status = {{form_select_file.selectedOptionValue}} ELSE 1=1 END)
+			AND (CASE WHEN {{!!form_select_category.selectedOptionValue}} THEN r.category_id = {{form_select_category.selectedOptionValue}} ELSE 1=1 END)
+      AND c.yn = 1
+) as t1

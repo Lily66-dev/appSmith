@@ -1,0 +1,64 @@
+{
+  "backgroundColor": "#FFFFFF",
+  "borderColor": "#E0DEDE",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "borderWidth": "1",
+  "bottomRow": 66,
+  "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+  "defaultModel": "{\n  \"tips\": [\n    \"Pass data to this widget in the default model field\",\n    \"Access data in the javascript file using the appsmith.model variable\",\n    \"Create events in the widget and trigger them in the javascript file using appsmith.triggerEvent('eventName')\",\n    \"Access data in CSS as var(--appsmith-model-{property-name})\"\n  ]\n}",
+  "dynamicBindingPathList": [
+    {
+      "key": "theme"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "boxShadow"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicTriggerPathList": [
+    {
+      "key": "onResetClick"
+    }
+  ],
+  "events": [
+    "onResetClick"
+  ],
+  "isCanvas": false,
+  "isLoading": false,
+  "isSearchWildcard": true,
+  "isVisible": true,
+  "key": "9bb35iczf8",
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "mobileBottomRow": 46,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 15,
+  "mobileTopRow": 16,
+  "needsErrorInfo": false,
+  "onResetClick": "{{showAlert('Successfully reset!!', '');}}",
+  "parentColumnSpace": 20.25,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 23,
+  "srcDoc": {
+    "css": "",
+    "html": "<div style=\"padding: 15px; border: 1px solid #e0e0e0; border-radius: 5px;\">\n  <h3 style=\"margin-top: 0; margin-bottom: 15px;\">访问目标系统</h3>\n  \n  <div style=\"margin-bottom: 20px; padding: 15px; background-color: #f8f8f8; border-radius: 4px;\">\n    <p style=\"margin-top: 0; margin-bottom: 10px;\"><strong>您的认证Token:</strong></p>\n    <div style=\"position: relative;\">\n      <textarea id=\"token-display\" rows=\"3\" style=\"width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px; font-family: monospace; font-size: 12px;\" readonly>eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9...</textarea>\n      <button id=\"copy-button\" style=\"position: absolute; right: 10px; top: 10px; padding: 5px 10px; background-color: #555; color: white; border: none; border-radius: 4px; cursor: pointer;\">复制</button>\n    </div>\n    <p style=\"font-size: 12px; color: #666; margin-top: 5px;\">请复制此Token，在新页面登录时可能需要使用</p>\n  </div>\n  \n  <div style=\"display: flex; gap: 10px;\">\n    <a href=\"https://goalgo-paas-juanw-re.holderzone.cn/project/sUgp9W\" target=\"_blank\" style=\"flex: 1; display: block; padding: 12px 15px; background-color: #4285f4; color: white; text-decoration: none; border-radius: 4px; text-align: center; font-weight: bold;\">\n      打开目标页面\n    </a>\n    \n    <a href=\"https://goalgo-paas-juanw-re.holderzone.cn/project/sUgp9W?token=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9...\" target=\"_blank\" style=\"flex: 1; display: block; padding: 12px 15px; background-color: #34a853; color: white; text-decoration: none; border-radius: 4px; text-align: center; font-weight: bold;\">\n      带Token参数打开\n    </a>\n  </div>\n  \n  <div style=\"margin-top: 20px; padding: 10px; background-color: #fef8e8; border: 1px solid #fbe7b5; border-radius: 4px;\">\n    <p style=\"margin: 0; font-size: 14px;\"><strong>注意:</strong> 如果目标系统在新页面要求登录，您可以尝试：</p>\n    <ol style=\"margin-top: 5px; margin-bottom: 0; font-size: 14px;\">\n      <li>使用您的常规账号密码登录</li>\n      <li>查看是否有\"输入令牌\"或\"Bearer认证\"选项</li>\n      <li>如有令牌输入界面，粘贴上方的令牌</li>\n    </ol>\n  </div>\n</div>\n\n<script>\n(function() {\n  // 为复制按钮添加功能\n  const copyButton = document.getElementById('copy-button');\n  const tokenDisplay = document.getElementById('token-display');\n  \n  if (copyButton && tokenDisplay) {\n    copyButton.addEventListener('click', function() {\n      tokenDisplay.select();\n      document.execCommand('copy');\n      \n      // 显示复制成功\n      const originalText = copyButton.textContent;\n      copyButton.textContent = '已复制!';\n      copyButton.style.backgroundColor = '#34a853';\n      \n      // 3秒后恢复\n      setTimeout(function() {\n        copyButton.textContent = originalText;\n        copyButton.style.backgroundColor = '#555';\n      }, 3000);\n    });\n  }\n})();\n</script>",
+    "js": ""
+  },
+  "theme": "{{appsmith.theme}}",
+  "topRow": 16,
+  "type": "CUSTOM_WIDGET",
+  "uncompiledSrcDoc": {
+    "css": "",
+    "html": "<div style=\"padding: 15px; border: 1px solid #e0e0e0; border-radius: 5px;\">\n  <h3 style=\"margin-top: 0; margin-bottom: 15px;\">访问目标系统</h3>\n  \n  <div style=\"margin-bottom: 20px; padding: 15px; background-color: #f8f8f8; border-radius: 4px;\">\n    <p style=\"margin-top: 0; margin-bottom: 10px;\"><strong>您的认证Token:</strong></p>\n    <div style=\"position: relative;\">\n      <textarea id=\"token-display\" rows=\"3\" style=\"width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px; font-family: monospace; font-size: 12px;\" readonly>eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9...</textarea>\n      <button id=\"copy-button\" style=\"position: absolute; right: 10px; top: 10px; padding: 5px 10px; background-color: #555; color: white; border: none; border-radius: 4px; cursor: pointer;\">复制</button>\n    </div>\n    <p style=\"font-size: 12px; color: #666; margin-top: 5px;\">请复制此Token，在新页面登录时可能需要使用</p>\n  </div>\n  \n  <div style=\"display: flex; gap: 10px;\">\n    <a href=\"https://goalgo-paas-juanw-re.holderzone.cn/project/sUgp9W\" target=\"_blank\" style=\"flex: 1; display: block; padding: 12px 15px; background-color: #4285f4; color: white; text-decoration: none; border-radius: 4px; text-align: center; font-weight: bold;\">\n      打开目标页面\n    </a>\n    \n    <a href=\"https://goalgo-paas-juanw-re.holderzone.cn/project/sUgp9W?token=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9...\" target=\"_blank\" style=\"flex: 1; display: block; padding: 12px 15px; background-color: #34a853; color: white; text-decoration: none; border-radius: 4px; text-align: center; font-weight: bold;\">\n      带Token参数打开\n    </a>\n  </div>\n  \n  <div style=\"margin-top: 20px; padding: 10px; background-color: #fef8e8; border: 1px solid #fbe7b5; border-radius: 4px;\">\n    <p style=\"margin: 0; font-size: 14px;\"><strong>注意:</strong> 如果目标系统在新页面要求登录，您可以尝试：</p>\n    <ol style=\"margin-top: 5px; margin-bottom: 0; font-size: 14px;\">\n      <li>使用您的常规账号密码登录</li>\n      <li>查看是否有\"输入令牌\"或\"Bearer认证\"选项</li>\n      <li>如有令牌输入界面，粘贴上方的令牌</li>\n    </ol>\n  </div>\n</div>\n\n<script>\n(function() {\n  // 为复制按钮添加功能\n  const copyButton = document.getElementById('copy-button');\n  const tokenDisplay = document.getElementById('token-display');\n  \n  if (copyButton && tokenDisplay) {\n    copyButton.addEventListener('click', function() {\n      tokenDisplay.select();\n      document.execCommand('copy');\n      \n      // 显示复制成功\n      const originalText = copyButton.textContent;\n      copyButton.textContent = '已复制!';\n      copyButton.style.backgroundColor = '#34a853';\n      \n      // 3秒后恢复\n      setTimeout(function() {\n        copyButton.textContent = originalText;\n        copyButton.style.backgroundColor = '#555';\n      }, 3000);\n    });\n  }\n})();\n</script>",
+    "js": ""
+  },
+  "version": 1,
+  "widgetId": "cupgrv7a7t",
+  "widgetName": "Custom3"
+}

@@ -1,0 +1,3 @@
+SELECT count(*) as total FROM courseware 
+WHERE 
+yn = 1

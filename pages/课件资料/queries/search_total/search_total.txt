@@ -1,0 +1,13 @@
+SELECT count(*) as total FROM courseware 
+WHERE 
+name LIKE '{{"%" + (form_input_filename.text || "") + "%"}}'
+AND modify_account LIKE '{{"%" + (form_input_personname.text || "") + "%"}}'
+AND (CASE WHEN {{!!form_select_file.selectedOptionValue}} THEN file_type = {{form_select_file.selectedOptionValue}} ELSE 1=1 END)
+AND (CASE WHEN {{!!form_datepiker_upload.selectedDate}} 
+     THEN modify_time >= '{{moment(form_datepiker_upload.selectedDate).startOf("day").format("YYYY-MM-DD HH:mm:ss")}}' 
+          AND modify_time <= '{{moment(form_datepiker_upload.selectedDate).endOf("day").format("YYYY-MM-DD HH:mm:ss")}}' 
+     ELSE 1=1 END)
+AND yn = 1
+ORDER BY modify_time DESC
+LIMIT {{container_right_table.pageSize}}
+OFFSET {{container_right_table.pageOffset}}

@@ -1,0 +1,5 @@
+SELECT * FROM category 
+WHERE 
+yn = 1
+and
+id = {{this.params.category_id}} ;

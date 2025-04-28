@@ -1,0 +1,62 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 31,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": "{{utils.activeProduct?.category_id && [1,0].includes(utils.activeProduct?.public) && !utils.activeProduct?.name}}",
+  "displayName": "Button",
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "disabledWhenInvalid"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "disabledWhenInvalid"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "googleRecaptchaKey": "",
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
+  "isDefaultClickDisabled": true,
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "4t4k423bcc",
+  "leftColumn": 50,
+  "minWidth": 120,
+  "onClick": "{{utils.updateProduct();}}",
+  "originalBottomRow": 31,
+  "originalTopRow": 26,
+  "parentId": "qda3u6amtc",
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 62,
+  "searchTags": [
+    "click",
+    "submit"
+  ],
+  "text": "保存",
+  "topRow": 26,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "1n61zw60jg",
+  "widgetName": "edit_btn_createApplication"
+}

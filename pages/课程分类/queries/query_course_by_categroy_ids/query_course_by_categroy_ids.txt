@@ -1,0 +1,5 @@
+SELECT * from 
+course_category_relation r
+JOIN
+course c 
+on r.course_id = c.id and r.category_id = 31 and c.status = 2 and c.yn = 1

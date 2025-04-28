@@ -1,0 +1,57 @@
+{
+  "allowedFileTypes": "[\n    \".doc\",\n    \".docx\",\n    \".xls\",\n    \".xlsx\",\n    \".ppt\",\n    \".pptx\",\n    \".pdf\",\n    \".png\",\n    \".jpg\",\n    \".jpeg\",\n    \".mp4\"\n]",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 16,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "displayName": "FilePicker",
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "allowedFileTypes"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "dynamicTyping": true,
+  "fileDataType": "Binary",
+  "files": [],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.7c5ad9c357928c6ff5701bf51a56c2e5.svg",
+  "isDefaultClickDisabled": true,
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": true,
+  "isVisible": true,
+  "key": "izbhaqfv3r",
+  "label": "上传资料",
+  "leftColumn": 12,
+  "maxFileSize": "200",
+  "maxNumFiles": "1",
+  "minWidth": 450,
+  "originalBottomRow": 16,
+  "originalTopRow": 11,
+  "parentColumnSpace": 13.4921875,
+  "parentId": "2dk34xtuhk",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 61,
+  "searchTags": [
+    "upload"
+  ],
+  "selectedFiles": [],
+  "topRow": 11,
+  "type": "FILE_PICKER_WIDGET_V2",
+  "version": 1,
+  "widgetId": "vf4opd9vc8",
+  "widgetName": "fpk_documentUpload"
+}

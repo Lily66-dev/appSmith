@@ -1,0 +1,1 @@
+SELECT * FROM courseware WHERE yn = 1 ORDER BY modify_time DESC;

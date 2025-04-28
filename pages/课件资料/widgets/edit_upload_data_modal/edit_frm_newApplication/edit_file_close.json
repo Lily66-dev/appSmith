@@ -1,0 +1,49 @@
+{
+  "animateLoading": true,
+  "borderRadius": "0px",
+  "bottomRow": 15,
+  "boxShadow": "none",
+  "buttonColor": "#a2a2a4",
+  "buttonVariant": "TERTIARY",
+  "dynamicBindingPathList": [
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "iconName": "delete",
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": "{{!!(utils.activeProduct?.name)}}",
+  "key": "mbdogbsegu",
+  "leftColumn": 59,
+  "minWidth": 50,
+  "mobileBottomRow": 16,
+  "mobileLeftColumn": 59,
+  "mobileRightColumn": 63,
+  "mobileTopRow": 12,
+  "needsErrorInfo": false,
+  "onClick": "{{utils.clearFilePath();}}",
+  "originalBottomRow": 15,
+  "originalTopRow": 11,
+  "parentColumnSpace": 7.861328125,
+  "parentId": "qda3u6amtc",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "hug",
+  "rightColumn": 63,
+  "topRow": 11,
+  "type": "ICON_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "t95grzz0r8",
+  "widgetName": "edit_file_close"
+}

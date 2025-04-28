@@ -1,0 +1,1 @@
+select * from course where id in ('{{this.params.course_ids.join(",")}}') and yn  = 1 and status =2;

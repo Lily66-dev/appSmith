@@ -1,0 +1,39 @@
+{
+  "animateLoading": true,
+  "borderOpacity": 100,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "borderWidth": 1,
+  "bottomRow": 52,
+  "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "boxShadow"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "flexVerticalAlignment": "start",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "3dydmw3h13",
+  "leftColumn": 49,
+  "mobileBottomRow": 52,
+  "mobileLeftColumn": 12,
+  "mobileRightColumn": 36,
+  "mobileTopRow": 20,
+  "needsErrorInfo": false,
+  "parentColumnSpace": 20.25,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 64,
+  "source": "https://goalgo-paas-juanw.holderzone.cn/admin-api/system/dict-data/list-all-simple?Authorization=\"c2JNd0M2RzgydGpMaDRBMDBPR3Vtem43dUZJOV96SXI4In0.eyJleHAiOjE3NDU1MDAxMTcsImlhdCI6MTc0NTQ2NDExNywianRpIjoiYzVkNTg3OGItZmZjZi00ODQ3LWIxNzItYWE1MGQ2NzAxMzMwIiwiaXNzIjoiaHR0cHM6Ly9wYWFzLWF1dGguaG9sZGVyem9uZS5jbi9yZWFsbXMvcGFhcyIsInN1YiI6ImY6ZjAzNGUyMTktZjdiMi00ZTQzLTlmM2YtZTAyZDk0MDczZTc0OjE3OCIsInR5cCI6IkJlYXJlciIsImF6cCI6ImhvbGRlci1wYyIsInNlc3Npb25fc3RhdGUiOiI1NmQwZDNjMi05MmIxLTQ2NDAtYTAzNy04Y2U3NzNkMTA1NjAiLCJhY3IiOiJxcmNvZGUiLCJhbGxvd2VkLW9yaWdpbnMiOlsiKiJdLCJzY29wZSI6ImVtYWlsIHByb2ZpbGUiLCJzZXJ2aWNlX3ZlcnNpb24iOiJ2MSIsInNpZCI6IjU2ZDBkM2MyLTkyYjEtNDY0MC1hMDM3LThjZTc3M2QxMDU2MCIsImVtYWlsX3ZlcmlmaWVkIjpmYWxzZSwibmFtZSI6Iua1iy3lkLTpopYiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiIxMzQzODE1NzQ4OSIsImdpdmVuX25hbWUiOiLmtYst5ZC06aKWIn0.PUFVAD7c8RYvXbLFakeNiKaJSm8-yMzFJzyEvgIC0DA80Kc_8TZPGX32-7DlmgPa6IMUahfOKNVS85s_uPq5Yg6dXRg9_WQEyJpMVsLsYCtSW2Y0-e3Y_UhyOFFQ4SELSr1SATLboO72ZbGxonh2rOlclZR9I7_AvqAuWkpJqY_Y5sYPCGQHuMIU0Uq0BI8cjKxQ_lpbuHeecCebMPdgAVx69zGAtqpuqT2d7YUO2xZiMxKLt9drPAk3EMJCnnGYOcJDwnHQNt8ktG8NBnjH4Z2FiTSPJD8f-dCWFXQgM50GVXQ4V0ulMhwl90a_-xOthr9WyZzu1LPaBS4k0963Bw\"",
+  "topRow": 20,
+  "type": "IFRAME_WIDGET",
+  "version": 1,
+  "widgetId": "t8cdu34qjm",
+  "widgetName": "Iframe3"
+}

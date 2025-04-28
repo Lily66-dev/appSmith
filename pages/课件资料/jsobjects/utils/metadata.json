@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "67f87541469e331d6342771c_6df2102f-6837-404e-856c-6ce4aa12963f",
+  "id": "课件资料_utils",
+  "unpublishedCollection": {
+    "name": "utils",
+    "pageId": "课件资料",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "activeProduct",
+        "value": "null"
+      }
+    ]
+  }
+}

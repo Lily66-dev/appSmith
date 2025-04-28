@@ -1,0 +1,69 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 4,
+  "boxShadow": "none",
+  "defaultOptionValue": "",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    },
+    {
+      "key": "onOptionChange"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onOptionChange"
+    }
+  ],
+  "isDisabled": false,
+  "isFilterable": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "qaw4gl27xn",
+  "labelAlignment": "left",
+  "labelPosition": "Left",
+  "labelText": "学习进度：",
+  "labelTextSize": "0.875rem",
+  "labelWidth": "5",
+  "leftColumn": 40,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 7,
+  "mobileLeftColumn": 28,
+  "mobileRightColumn": 48,
+  "mobileTopRow": 0,
+  "needsErrorInfo": false,
+  "onOptionChange": "{{utils.handleSearch()}}",
+  "optionLabel": "name",
+  "optionValue": "code",
+  "originalBottomRow": 19,
+  "originalTopRow": 15,
+  "parentColumnSpace": 15.53125,
+  "parentId": "a0wse5rzfa",
+  "parentRowSpace": 10,
+  "placeholderText": "请选择",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 53,
+  "serverSideFiltering": false,
+  "sourceData": "[\n  {\n    \"name\":\"doc\",\n    \"code\":\"doc\"\n  },\n  {\n    \"name\":\"docx\",\n    \"code\":\"docx\"\n  },\n  {\n    \"name\": \"xls\",\n    \"code\": \"xls\"\n  },\n\t  {\n    \"name\": \"xlsx\",\n    \"code\": \"xlsx\"\n  },\n\t{\n    \"name\": \"ppt\",\n    \"code\": \"ppt\"\n  },\n\t{\n    \"name\": \"pptx\",\n    \"code\": \"pptx\"\n  },\n\t{\n    \"name\": \"pdf\",\n    \"code\": \"pdf\"\n  },\n\t{\n    \"name\": \"png\",\n    \"code\": \"png\"\n  },\n\t{\n    \"name\": \"jpg\",\n    \"code\": \"jpg\"\n  },\n\t{\n    \"name\": \"jpeg\",\n    \"code\": \"jpeg\"\n  },\n\t{\n    \"name\": \"mp4\",\n    \"code\": \"mp4\"\n  }\n]",
+  "topRow": 0,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "ge1pkahkyn",
+  "widgetName": "form_select_categoryCopy"
+}

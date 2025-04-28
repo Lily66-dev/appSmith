@@ -1,0 +1,12 @@
+START TRANSACTION;
+UPDATE course_category SET
+    name = '{{frm_Class.data.form_input_category}}',
+    sort = '{{frm_Class.data.form_input_sort}}',
+		modify_account = '{{this.params.modify_account}}',
+		modify_time = '{{new Date().toISOString()}}'
+WHERE id = '{{this.params.id}}'; 
+--删除现有的课程和课程分类的关联关系
+DELETE FROM course_category_relation where category_id = '{{this.params.id}}';
+--新增课程和课程分类的关联关系
+CALL insert_course_category_relations({{this.params.id}}, '{{this.params.create_account}}', '{{this.params.course_ids.join(",")}}');
+COMMIT;

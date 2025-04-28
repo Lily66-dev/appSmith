@@ -1,0 +1,14 @@
+INSERT INTO courseware (name,public,category_id,file_path,file_type,file_size,create_account,modify_account,create_time,modify_time,yn) 
+VALUES (
+				'{{this.params.name}}',
+				{{this.params.public}},
+				{{this.params.category_id}},
+				'{{this.params.file_path}}',
+				'{{this.params.file_type}}',
+				'{{this.params.file_size}}',
+				'{{this.params.create_account}}',
+				'{{this.params.modify_account}}',
+				'{{new Date().toISOString()}}',
+				'{{new Date().toISOString()}}',
+				{{this.params.yn}}
+			)

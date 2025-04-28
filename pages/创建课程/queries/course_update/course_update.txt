@@ -1,0 +1,31 @@
+START TRANSACTION;
+UPDATE course SET
+    name = '{{InfoForm.data.title}}',
+    description = '{{InfoForm.data.description}}',
+    cover_img_path = '{{this.params.file_path}}',
+    modify_account = '{{this.params.modify_account}}',
+    modify_time = '{{new Date().toISOString()}}',
+    yn = 1
+WHERE id = '{{this.params.id}}';
+
+DELETE cer
+FROM chapter_exam_relation cer
+JOIN course_chapter_relation ccr ON cer.chapter_id = ccr.id
+WHERE ccr.course_id ='{{this.params.id}}';
+
+
+DELETE cwr
+FROM chapter_courseware_relation cwr
+JOIN course_chapter_relation ccr ON cwr.chapter_id = ccr.id
+WHERE ccr.course_id ='{{this.params.id}}';
+
+
+DELETE FROM course_chapter_relation
+WHERE course_id = '{{this.params.id}}';
+
+-- 课程分类
+CALL dynamic_insert_categories('{{InfoForm.data.course_category}}', @a_id, '{{this.params.create_account}}', '{{this.params.create_account}}', 1);
+-- 课程章节
+CALL process_course_chapters('{{this.params}}', @a_id);
+
+COMMIT; 

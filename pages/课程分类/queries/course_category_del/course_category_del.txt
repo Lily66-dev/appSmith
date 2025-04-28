@@ -1,0 +1,5 @@
+UPDATE course_category SET
+    yn = '0',  -- 将 yn 标记为删除
+    modify_account = '{{this.params.modify_account}}',  -- 更新操作人
+    modify_time = '{{new Date().toISOString()}}'         -- 更新时间
+  WHERE id = {{this.params.id}}; 

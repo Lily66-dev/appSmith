@@ -1,0 +1,1 @@
+select * from course where id = '{{this.params.id}}';
